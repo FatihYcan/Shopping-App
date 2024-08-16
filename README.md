@@ -48,4 +48,6 @@ Bu proje, temel bir alışveriş uygulamasını içerir. Kullanıcılar ürünle
 - Vite
 - [Products API](https://anthonyfs.pythonanywhere.com/api/products/)
 
+https://github.com/user-attachments/assets/1de39613-0910-48aa-a30f-96c81b9f4667
+
 [Live](https://fy-shop-app.netlify.app/)
