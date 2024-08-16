@@ -47,3 +47,5 @@ Bu proje, temel bir alışveriş uygulamasını içerir. Kullanıcılar ürünle
 - Toastify
 - Vite
 - [Products API](https://anthonyfs.pythonanywhere.com/api/products/)
+
+[Live](https://fy-shop-app.netlify.app/)
