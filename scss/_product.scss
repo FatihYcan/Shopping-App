@@ -1,0 +1,52 @@
+// product.scss
+
+@use "variables" as *;
+
+#btns .btn {
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+
+  @each $name, $color in $btnColorsMap {
+    &.btn-#{$name} {
+      &:hover {
+        background-color: invert($color);
+      }
+    }
+  }
+}
+
+#products {
+  .card {
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    border-radius: 15px;
+    overflow: hidden;
+    &:hover {
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+      transform: scale(1.05);
+    }
+    img {
+      border-bottom: 1px solid #ddd;
+    }
+    .card-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+    }
+    .card-footer {
+      background-color: #f8f9fa;
+      .btn {
+        font-weight: bold;
+        border-radius: 20px;
+      }
+      .btn-danger {
+        background-color: #dc3545;
+        border: none;
+      }
+      .btn-primary {
+        background-color: #007bff;
+        border: none;
+      }
+    }
+  }
+}

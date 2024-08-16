@@ -1,0 +1,22 @@
+// variables.scss
+
+@function invert($color) {
+  $red: red($color);
+  $green: green($color);
+  $blue: blue($color);
+  $inverted-red: 255 - $red;
+  $inverted-green: 255 - $green;
+  $inverted-blue: 255 - $blue;
+  @return rgb($inverted-red, $inverted-green, $inverted-blue);
+}
+
+$btnColorsMap: (
+  primary: #007bff,
+  secondary: #6c757d,
+  success: #28a745,
+  info: #17a2b8,
+  warning: #ffc107,
+  danger: #dc3545,
+  light: #f8f9fa,
+  dark: #343a40,
+);
